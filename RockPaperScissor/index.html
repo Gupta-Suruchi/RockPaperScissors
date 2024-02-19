@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kids Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="title">
+        <img id="title" src="./images/rockps.png">
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id = "paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id = "scissors">
+            <img src="./images/scissor.png">
+        </div>
+    </div>
+    
+    <div class="score-board">
+        <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compScore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="messageContainer">
+        <p id="msg">Your Move, Let's Start!</p>
+    </div>
+    <div >
+        <img id="end" src="./images/RPS.png">
+    </div>
+    <script src='logic.js'></script>
+</body>
+</html>

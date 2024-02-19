@@ -1,0 +1,90 @@
+*{
+   margin: 0;
+   padding: 0; 
+   text-align: center;
+}
+
+h1{
+    background-color: blueviolet;
+    color: salmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: hue-rotate(-15deg);
+    height: 2rem;
+    line-height: 2rem;
+    border: .2rem cadetblue solid; 
+    box-shadow:
+    inset -1.5px -1px red;
+    
+}
+.choice{
+    height: 250px;
+    width: 250px;
+    
+}
+#end{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 3rem;
+    border-radius: 50%;    
+
+    
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+img{
+    height: 210px;
+    width: 200px;
+    object-fit: fill;
+
+}
+#title{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem;
+    
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: rgb(236, 8, 84);
+    gap: 8rem;
+    
+}
+
+#userScore, #compScore {
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    color: aqua;
+    
+}
+.messageContainer{
+    margin-top: 3rem;
+
+}
+#msg{
+    color: yellow;
+    background-color: skyblue;
+    font-size: 2rem;
+    padding: .5rem;
+    padding-inline: 4rem;
+    margin-top: 2rem;
+    display: inline;
+    align-items: inherit;
+    border-radius: .5rem;
+} 
